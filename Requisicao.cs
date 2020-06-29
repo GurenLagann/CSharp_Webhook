@@ -70,13 +70,23 @@ namespace Webhook {
                 cliente.DefaultRequestHeaders.Clear();
                 cliente.DefaultRequestHeaders.Add("oauth-token", token);
 
+                SugarLeads leads = new SugarLeads();
+
                 try {
                     Task<HttpResponseMessage> response =  cliente.GetAsync(url);
                     var responseAux = response.Result.Content.ReadAsStringAsync();
                     var jsonResult = responseAux.Result;
                     //List<string> leads = JsonConvert.DeserializeObject<List<string>>(jsonResult);
-                    WriteLine(jsonResult);
-                    SugarLeads leads = JsonConvert.DeserializeObject<SugarLeads>(jsonResult);
+                    //WriteLine(jsonResult);
+                    foreach (var records in jsonResult)
+                    {
+                        
+                        leads = JsonConvert.DeserializeObject<SugarLeads>(jsonResult);
+                        WriteLine(leads.id);
+                        WriteLine(leads.name); 
+                    }
+            
+                    
                     return leads;
                 }
                 
