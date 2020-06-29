@@ -1,3 +1,14 @@
 /home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.csprojAssemblyReference.cache
 /home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.AssemblyInfoInputs.cache
 /home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.AssemblyInfo.cs
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Webhook
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Webhook.deps.json
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Webhook.runtimeconfig.json
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Webhook.runtimeconfig.dev.json
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Webhook.dll
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Webhook.pdb
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/wallace/Dev/Lifetime/CSharp/Webhook/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+/home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.csproj.CopyComplete
+/home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.dll
+/home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.pdb

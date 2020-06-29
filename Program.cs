@@ -20,21 +20,26 @@ namespace Webhook
 
             Token token = r1.Autentica();
             //WriteLine(token.access_token);
-            int PLeads;
+            string PLeads;
 
             WriteLine("1: buscar leads por time: \n2: Buscar leads por assessor atribuido:");
-            var i = Convert.ToInt32(ReadLine());
+            int i = Convert.ToInt32(ReadLine());
 
-            if (i = 1){
+            if (i < 2){
                 WriteLine("Nome do time: ");
-                var time = ReadLine();
+                string time = ReadLine();
                 PLeads = "Leads?filter[0][team_name]=" + time;
             }
 
-            if (i = 2) {
+            else if (i > 1) {
                 WriteLine("Nome do Assessor: ");
-                var ass = ReadLine();
+                string ass = ReadLine();
                 PLeads = "filter[0][assigned_user_link]="+ ass;
+            }
+
+            else {
+                WriteLine("Opção Errada!");
+                return;                
             }
 
             SugarLeads leads = r1.Leads(PLeads, token.access_token);
