@@ -19,7 +19,7 @@ namespace Webhook {
 
     public class Requisicao {
 
-        private const string instanceUri = "https://lftm.sugarondemand.com/rest/v11/";
+        private const string instanceUri = "link Api";
         
         public Token Autentica() {
             // Endpoint de autenticação
@@ -27,11 +27,11 @@ namespace Webhook {
 
             // Configurando os parametros necessarios para a autenticação
             Dictionary<string, string> auth = new Dictionary<string, string>();
-            auth.Add("grant_type", "password");
-            auth.Add("client_id", "sugar");
-            auth.Add("username", "api.lftm");
-            auth.Add("password", "Suporte@lftm2020");
-            auth.Add("platform", "api_rd");
+            auth.Add("grant_type", "");
+            auth.Add("client_id", "");
+            auth.Add("username", "username");
+            auth.Add("password", "Password");
+            auth.Add("platform", "");
 
             // Transformando os parametros em JSON
             var jsonParams = JsonConvert.SerializeObject(auth, Formatting.Indented);
