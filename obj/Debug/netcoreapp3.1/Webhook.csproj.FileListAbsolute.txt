@@ -1,0 +1,3 @@
+/home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.csprojAssemblyReference.cache
+/home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.AssemblyInfoInputs.cache
+/home/wallace/Dev/Lifetime/CSharp/Webhook/obj/Debug/netcoreapp3.1/Webhook.AssemblyInfo.cs
